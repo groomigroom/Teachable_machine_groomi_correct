@@ -11,6 +11,7 @@
     box-sizing: border-box;
     font-family: 'KerisKeduLine';
     color: #333333;
+    letter-spacing: -0.02em;
 }
 
 .title{

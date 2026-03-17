@@ -56,6 +56,13 @@
     top: 83px;
     left: 50%;
     transform: translateX(-50%);
+    border-radius: 5px;
+}
+
+#webcam-container>canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #label-container{

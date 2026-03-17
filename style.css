@@ -78,6 +78,18 @@
     position: absolute;
     top: 40px;
     left: 50%;
-    transform: translateX(-50%);
+    animation: groomi_move 2s ease 0s infinite;
+}
+
+@keyframes groomi_move {
+    0% {
+        transform: translateX(-50%) rotateZ(30deg);
+    }
+    50%{
+        transform: translateX(-50%) rotateZ(-30deg);
+    }
+    100% {
+        transform: translateX(-50%) rotateZ(30deg);
+    }
 }
 
